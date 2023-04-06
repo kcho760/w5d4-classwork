@@ -18,4 +18,5 @@ class User < ApplicationRecord
         foreign_key: :enrollment_id,
         class_name: :Course
 
+    
 end

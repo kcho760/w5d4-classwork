@@ -25,4 +25,11 @@ class Course < ApplicationRecord
         foreign_key: :id,
         class_name: :Course
 
+    # has_one :instructor,
+    #     primary_key: :id,
+    #     foreign_key: :instructor_id,
+    #     class_name: :Course
+
+    
+
 end
